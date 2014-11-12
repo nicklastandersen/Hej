@@ -1,0 +1,53 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DemoMVVMPersonUdenNotification"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="using:DemoMVVMPersonUdenNotification.viewmodel"
+    x:Class="DemoMVVMPersonUdenNotification.view.MainPage"
+    mc:Ignorable="d">
+	<Page.BottomAppBar>
+		<CommandBar>
+			<AppBarButton Icon="Add" Label="Opret Person" Command="{Binding OpretPersonCommand}"/>
+		</CommandBar>
+	</Page.BottomAppBar>
+    <Page.DataContext>
+        <viewmodel:MainViewModel/>
+    </Page.DataContext>
+
+
+
+    <Grid MinWidth="2">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="120"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<ListBox HorizontalAlignment="Left" Height="455" Margin="78,121,0,0" Grid.Row="1" VerticalAlignment="Top" Width="315" ItemsSource="{Binding Personer}" SelectedItem="{Binding SelectedPerson, Mode=TwoWay}"/>
+		<TextBlock HorizontalAlignment="Left" Margin="90,67,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="26.667" Text="Personer"/>
+		<StackPanel HorizontalAlignment="Left" Height="509" Margin="526,67,0,0" Grid.Row="1" VerticalAlignment="Top" Width="254">
+			<StackPanel.Background>
+				<ImageBrush Stretch="Fill"/>
+			</StackPanel.Background>
+			<TextBlock HorizontalAlignment="Left" Margin="0,20" TextWrapping="Wrap" Text="Valgt Person" VerticalAlignment="Top" FontSize="26.667" Width="217"/>
+			<TextBlock TextWrapping="Wrap" Text="Navn" FontSize="16"/>
+			<TextBox TextWrapping="Wrap" Text="{Binding SelectedPerson.Name, Mode=TwoWay}" FontSize="26.667" VerticalAlignment="Top" Margin="0,10,0,0"/>
+			<TextBlock TextWrapping="Wrap" Text="Adresse" FontSize="16" VerticalAlignment="Top" Margin="0,10,0,0"/>
+			<TextBox TextWrapping="Wrap" Text="{Binding SelectedPerson.Address, Mode=TwoWay}" FontFamily="Global User Interface" FontSize="26.667" VerticalAlignment="Top" Margin="0,10,0,0"/>
+			<TextBlock TextWrapping="Wrap" Text="Telefon" FontSize="16" VerticalAlignment="Top" Margin="0,10,0,0"/>
+			<TextBox TextWrapping="Wrap" Text="{Binding SelectedPerson.Phone, Mode=TwoWay}" FontSize="26.667" VerticalAlignment="Top" Margin="0,10,0,0"/>
+		</StackPanel>
+		<StackPanel HorizontalAlignment="Left" Height="331" Margin="849,96,0,0" Grid.Row="1" VerticalAlignment="Top" Width="260">
+			<TextBlock TextWrapping="Wrap" Text="Opret Person" FontSize="32"/>
+			<TextBlock TextWrapping="Wrap" Text="Navn" FontSize="26.667"/>
+			<TextBox TextWrapping="Wrap" Text="{Binding OpretPersonHandler.Navn, Mode=TwoWay}" FontSize="26.667" FontFamily="Global User Interface"/>
+			<TextBlock TextWrapping="Wrap" Text="Adresse" FontSize="26.667"/>
+			<TextBox TextWrapping="Wrap" Text="{Binding OpretPersonHandler.Adresse, Mode=TwoWay}" FontSize="26.667"/>
+			<TextBlock TextWrapping="Wrap" Text="Telefon" FontSize="26.667"/>
+			<TextBox TextWrapping="Wrap" Text="{Binding OpretPersonHandler.Telefon, Mode=TwoWay}" FontSize="26.667"/>
+		</StackPanel>
+		<Button Content="Opret Alternativt" HorizontalAlignment="Left" Margin="960,552,0,0" Grid.Row="1" VerticalAlignment="Top" Command="{Binding OpretPersonCommand}"/>
+
+	</Grid>
+</Page>
+

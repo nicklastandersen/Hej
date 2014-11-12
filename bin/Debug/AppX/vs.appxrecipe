@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NICKLAS</Machine>
+    <WindowsUser>Nicklas</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>49bcbb47-08a3-4f21-b60b-7d45cf7a1f57</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>0B0B0423CE6481BD62D32AC9A5EF7F8C56D2C5E3A37F5569FC6B440957DE87AC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49bcbb47-08a3-4f21-b60b-7d45cf7a1f57_1.0.0.0_neutral__18bnxv09wb7ay</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49bcbb47-08a3-4f21-b60b-7d45cf7a1f57_18bnxv09wb7ay!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49bcbb47-08a3-4f21-b60b-7d45cf7a1f57</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=peterl</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-30T13:06:29.326</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\bin\Debug\DemoMVVMPersonUdenNotification.exe">
+      <PackagePath>DemoMVVMPersonUdenNotification.exe</PackagePath>
+      <Modified>2014-10-30T13:06:28.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-30T11:30:37.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-30T11:30:37.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-30T11:30:37.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-30T11:30:37.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-10-30T13:06:27.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\bin\Debug\view\MainPage.xbf">
+      <PackagePath>view\MainPage.xbf</PackagePath>
+      <Modified>2014-10-30T13:06:27.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\bin\Debug\DemoMVVMPersonUdenNotification.xr.xml">
+      <PackagePath>DemoMVVMPersonUdenNotification.xr.xml</PackagePath>
+      <Modified>2014-10-30T11:30:38.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Desktop\DemoMVVMPersonUdenNotification\DemoMVVMPersonUdenNotification\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-30T13:06:28.779</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
